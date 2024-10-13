@@ -4,10 +4,6 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(express.json());
-// app.use('/repos/', calcRoute);
-app.use('/express-calculator/server', calculator-api);
-//C:\Users\USER\Documents\express-calculator\calculator-api
 
 // Basic calculator functions
 const add = (a, b) => a + b;
